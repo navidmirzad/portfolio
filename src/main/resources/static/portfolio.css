@@ -133,30 +133,43 @@ h2
 .information
 {
     height: 70vh;
-    width: 100%;
     background-image: url("images/gradient.jpg");
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    margin: 60px;
 }
 
 .information h2
 {
-    color: lightskyblue;
+    color: black;
 }
 
-.info-school
+.information .info-school
 {
-
+    padding: 30px;
+    margin: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
-.info-work
+.information .info-work
 {
-
+    padding: 30px;
+    margin: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
-.info-projects
+.information .info-projects
 {
-
+    padding: 30px;
+    margin: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
 
